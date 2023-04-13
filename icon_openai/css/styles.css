@@ -1,0 +1,153 @@
+.icon-chatgpt-modal-container + .ui-widget-overlay {
+  background: black;
+  opacity: 0.8;
+}
+
+
+.icon-openai-key-form .form-item-question {
+  margin-bottom: 20px;
+}
+
+.icon-chatgpt-modal-container + .ui-widget-overlay {
+  background: black;
+  opacity: 0.8;
+}
+
+.icon-chatgpt-modal-container #copyOpenAiAnswer:hover {
+  background: #025202;
+  color: white;
+}
+
+.icon-chatgpt-modal-container #copyOpenAiAnswer {
+  outline: none;
+  border: 2px solid #025202 !important;
+  border-radius: 5px;
+  background: white;
+  color: #025202;
+  transition: all 0.2s;
+  margin-top: 20px !important;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.icon-openai-key-form .button:hover,
+.icon-openai-key-form .button:focus {
+  background: #025202;
+  color: white;
+  box-shadow: none !important;
+}
+
+.icon-openai-key-form .button {
+  border: 1px solid #025202 !important;
+  background: white;
+  color: #025202;
+  border-radius: 5px;
+  transition: all 0.2s;
+  margin: 0 !important;
+  margin-right: 20px !important;
+  cursor: pointer;
+  outline: none;
+  line-height: 1px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  min-height: 40px;
+  min-width: 140px;
+  width: auto;
+  display: inline-block;
+}
+
+.icon-openai-key-form .form-item-question input:hover,
+.icon-openai-key-form .form-item-question input:focus {
+  box-shadow: none !important;
+}
+
+.icon-openai-key-form .form-item-question input {
+  border: 1px solid #025202;
+  border-radius: 5px;
+  width: 100%;
+  max-width: none;
+  min-width: auto;
+  margin: 0;
+  padding: 10px;
+  outline: none;
+}
+
+.icon-openai-key-form {
+  box-shadow: 0 0 2px 0 #025202 !important;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.icon-chatgpt-modal-container .ui-widget-content .button:hover,
+.icon-chatgpt-modal-container .ui-widget-content .button:focus {
+  background: #025202;
+  color: white;
+  box-shadow: none !important;
+}
+
+.icon-chatgpt-modal-container {
+  box-shadow: none;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 5px;
+  overflow: auto;
+  transition: all 1s;
+}
+
+.icon-chatgpt-modal-container .ui-widget-content .button {
+  border: 2px solid #025202 !important;
+  background: white;
+  color: #025202;
+  border-radius: 5px;
+  transition: all 0.2s;
+  margin: 0 !important;
+  margin-right: 20px !important;
+  padding: 10px;
+  cursor: pointer;
+}
+.icon-chatgpt-modal-container .ui-widget-content {
+  padding: 15px 20px;
+}
+
+.icon-chatgpt-modal-container .ui-dialog-titlebar-close::after {
+  content: "\D7";
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  line-height: inherit;
+}
+
+.icon-chatgpt-modal-container .ui-dialog-titlebar-close:focus,
+.icon-chatgpt-modal-container .ui-dialog-titlebar-close:hover {
+  border: 1px solid white;
+}
+
+.icon-chatgpt-modal-container .ui-dialog-titlebar-close {
+  right: 20px !important;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  top: auto;
+  margin: auto;
+  bottom: auto;
+  background: #025202;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #025202;
+  outline: none;
+}
+
+.icon-chatgpt-modal-container .ui-dialog-titlebar {
+  background: #025202 !important;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  padding: 15px 20px;
+}

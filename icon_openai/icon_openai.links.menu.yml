@@ -1,0 +1,13 @@
+icon_openai.settings_form:
+  title: 'OpenAI API Key'
+  description: 'Add your API key from OpenAI.'
+  parent: system.admin_config_system
+  route_name: icon_openai.settings_form
+  weight: 10
+
+icon_openai.admin:
+  title: 'Ask ChatGPT'
+  route_name: icon_openai.ask_chatgpt
+  description: 'Load page with ChatGPT.'
+  parent: system.admin
+  weight: 101

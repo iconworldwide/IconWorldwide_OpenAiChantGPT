@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains module related hooks.
+ */
+
+
+use Drupal\icon_openai\Form\IconOpenAiAskChatGpt;
+function icon_openai_preprocess_page(&$variables) {
+  $routeName = \Drupal::routeMatch()->getRouteName();
+
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+    if ($routeName === 'node.add' || $routeName === 'entity.node.edit_form') {
+      $variables['#attached']['library'][] = 'icon_openai/icon.chatgpt.admin_styles';
+
+      $form_builder = \Drupal::formBuilder();
+
+      $variables['iconOpenAi'] = [
+        '#type' => 'details',
+        '#title' => 'Ask ChatGPT',
+        '#weight' => -100,
+        '#access' => true,
+        '#group' => 'advanced',
+        '#tree' => true,
+        '#attributes' => ['class' => ['icon-chatgpt-details-container']],
+        'form' => ['widget' => $form_builder->getForm(IconOpenAiAskChatGpt::class)]
+      ];
+
+      array_unshift($variables["page"]["content"], $variables['iconOpenAi']);
+    }
+  }
+
+  if ($routeName === 'icon_openai.ask_chatgpt') {
+    $variables['#attached']['library'][] = 'icon_openai/icon.chatgpt_custom_theme';
+  }
+}

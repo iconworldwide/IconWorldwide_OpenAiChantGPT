@@ -1,0 +1,101 @@
+.icon-chatgpt-modal-container .ui-widget-content {
+  border-radius: 0 0 5px 5px;
+}
+
+.icon-chatgpt-modal-container {
+  transition: all 1s;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.icon-chatgpt-modal-container + .ui-widget-overlay {
+  background: black;
+  opacity: 0.8;
+}
+
+.icon-chatgpt-modal-container .ui-dialog-titlebar {
+  background: #025202 !important;
+  padding: 16px 24px !important;
+}
+
+.icon-chatgpt-modal-container #copyOpenAiAnswer:hover {
+  background: #025202;
+  color: white;
+}
+
+.icon-chatgpt-modal-container #copyOpenAiAnswer {
+  outline: none;
+  border: 2px solid #025202 !important;
+  border-radius: 5px;
+  background: white;
+  color: #025202;
+  transition: all 0.2s;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.icon-chatgpt-details-container > summary::before {
+  filter: brightness(0) invert(1) !important;
+}
+
+.icon-chatgpt-details-container > summary:after {
+  display: none !important;
+}
+
+.icon-chatgpt-details-container > summary {
+
+}
+
+.icon-chatgpt-details-container > summary:focus,
+.icon-chatgpt-details-container > summary:hover {
+  background: #036903 !important;
+  color: white !important;
+}
+
+.icon-chatgpt-details-container .icon-openai-key-form .button:hover,
+.icon-chatgpt-details-container .icon-openai-key-form .button:focus {
+  background: #025202;
+  color: white;
+  box-shadow: none !important;
+}
+
+.icon-chatgpt-details-container .icon-openai-key-form .button {
+  border: 2px solid #025202 !important;
+  background: white;
+  color: #025202;
+  border-radius: 5px;
+  transition: all 0.2s;
+  margin: 0 !important;
+  margin-right: 20px !important;
+}
+
+.icon-chatgpt-details-container .icon-openai-key-form .form-item--question input:hover,
+.icon-chatgpt-details-container .icon-openai-key-form .form-item--question input:focus {
+  box-shadow: none !important;
+}
+
+.icon-chatgpt-details-container .icon-openai-key-form .form-item--question input {
+  border: 2px solid #025202;
+  border-radius: 5px;
+}
+
+.icon-chatgpt-details-container {
+  box-shadow: 0 0 2px 0 #025202 !important
+}
+
+.icon-chatgpt-details-container > summary:focus span {
+  text-decoration: none;
+}
+
+.icon-chatgpt-details-container > summary {
+  background: #025202;
+  color: white !important;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.icon-chatgpt-modal-container .ui-dialog-content {
+  padding: 16px 24px !important;
+}

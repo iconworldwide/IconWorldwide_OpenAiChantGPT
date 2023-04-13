@@ -1,0 +1,3 @@
+services:
+  icon_openai.chatgpt_processor:
+    class: Drupal\icon_openai\IconOpenAiProcessor

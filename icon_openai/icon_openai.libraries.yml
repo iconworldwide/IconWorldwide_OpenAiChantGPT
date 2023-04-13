@@ -1,0 +1,24 @@
+icon.chatgpt_custom_theme:
+  version: 1.x
+  css:
+    theme:
+      css/styles.css: {}
+
+icon.chatgpt.admin_styles:
+  version: 1.x
+  css:
+    theme:
+      css/admin.css: {}
+
+icon.chatgpt:
+  version: 1.x
+  js:
+    js/icon_chatgpt.js: {}
+    js/clipboard.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+    - core/once
+    - core/drupal
+    - core/drupal.dialog.ajax
+    - core/jquery.form

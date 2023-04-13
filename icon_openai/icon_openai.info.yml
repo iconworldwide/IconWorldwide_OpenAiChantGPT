@@ -1,0 +1,7 @@
+name: 'Icon Open AI'
+type: module
+description: 'Custom module with ChatGPT connection and functionality..'
+package: Icon Worldwide
+core_version_requirement: ^9 || ^10
+configure: icon_openai.settings_form
+libraries:
