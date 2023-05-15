@@ -13,4 +13,4 @@ Please, as useful as you find this code or more handsome than I am to you, they 
  - After you ask your question in the form, the answer will be loaded in a popup, you can copy the whole answer with the "Copy Answer" button or by highlighting the text.
 
 ## Module repository
-https://github.com/iconworldwide/IconWorldwide_OpenAiChantGPT
+https://github.com/iconworldwide/IconWorldwide_OpenAiChatGPT
