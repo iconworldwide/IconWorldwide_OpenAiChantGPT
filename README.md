@@ -2,7 +2,7 @@
 You can download, modify and share this software as in the [Icon - OpenAi](https://github.com/iconworldwide/IconWorldwide_OpenAiChantGPT).
 Please, as useful as you find this code or more handsome than I am to you, they are only for training purposes, testing or workshops. They are not finished, they don't have built-in tests.
 
-## You can see how to use the module from the article, there is also a video attached to it -  [Icon - OpenAi](https://icon-worldwide.com/)
+## You can see how to use the module from the article, there is also a video attached to it -  [Icon - OpenAi](https://icon-worldwide.com/blog/icon-open-ai-chat)
 
 1. Install the module.
 2. Add your OpenAi API key in Configuration -> OpenAI API Key (/admin/config/icon_openai/openaikey).
